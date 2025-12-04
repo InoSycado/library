@@ -7,8 +7,9 @@ class LibraryBook(models.Model):
     _inherit = "library.book"
 
     author_id = fields.Many2one(
-        comodel_name='res.partner', string='Author', required=True
+        comodel_name='res.partner', string='Author'
     )
-    category_id = fields.Many2many(
-         comodel_name="library.book.category" ,string="Categories", required=True
+    category_ids = fields.Many2many(
+        comodel_name="library.book.category",
+        string="Categories",
     )

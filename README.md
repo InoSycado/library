@@ -86,7 +86,7 @@ Inherit the `library.book` model and add an `author_id` field.
    - The `name` field should be required.
    - The `name` field should be unique.
 
-2. Add a `category_id` field to the `library.book` model. It should be a `Many2many` field with the `library.book.category` model.
+2. Add a `category_ids` field to the `library.book` model. It should be a `Many2many` field with the `library.book.category` model.
 
 3. A list and form view should also be created for the `library.book.category` model. The view should be accessible from the `Library > Book Category` menu. (You have to create a new menu item for this)
 
@@ -95,12 +95,12 @@ Inherit the `library.book` model and add an `author_id` field.
 1. Update the `library.book` list view to display the following fields:
 
    - `author_id`
-   - `category_id`
+   - `category_ids`
 
 2. Update the `library.book` form view to display the following fields:
 
    - `author_id`
-   - `category_id`
+   - `category_ids`
 
 ## What's next?
 
