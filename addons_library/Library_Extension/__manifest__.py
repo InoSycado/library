@@ -2,10 +2,7 @@
 {
     "name": "Library Extensions",
     "version": "1.0.0",
-    "depends": [
-        "base",
-        "library"
-    ],
+    "depends": ["library"],
     "external_dependencies": {},
     "author": "Rizalino I. Caguioa III",
     "summary": """A module extended from Library""",
